@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo 'Hello Gabia!'
+
+exit 0 # Exit 코드가 0 이 아니면 커밋이 취소됨

@@ -1,0 +1,21 @@
+{
+  "name": "git-hooks-study",
+  "version": "1.0.0",
+  "description": "Git Hook Study Project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheolHoSin/git-hooks-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CheolHoSin/git-hooks-study/issues"
+  },
+  "homepage": "https://github.com/CheolHoSin/git-hooks-study#readme",
+  "devDependencies": {
+    "husky": "^4.2.5"
+  }
+}
