@@ -1,6 +1,6 @@
 # husky 로 git hook 하자
 
-본 문서는 npm 모듈인 **husky** 를 사용해 **Git Hooks** 를 공유하는 방법을 설명한다. 예제 코드는 https://github.com/CheolHoSin/git-hooks-study.git 에 올라가 있으니 참고하면 좋다.
+본 문서는 npm 모듈인 **husky** 를 사용해 **Git Hooks** 를 공유하는 방법을 설명한다.
 
 ## 들어가기 앞서
 
