@@ -135,8 +135,8 @@ push 를 실행하는 경우 동작해야 하므로, `pre-push` 훅을 사용하
 ```sh
 #!/bin/sh
 
-FORBIDDEN_HTTPS_URL="https://github.com/CheolHoSin/git-hooks-study.git" # insert your remote url (https)
-FORBIDDEN_SSH_URL="git@github.com:CheolHoSin/git-hooks-study.git" # insert your remote url (ssh)
+FORBIDDEN_HTTPS_URL="https://github.com/CheolHoSin/git-hooks-with-husky.git" # insert your remote url (https)
+FORBIDDEN_SSH_URL="git@github.com:CheolHoSin/git-hooks-with-husky.git" # insert your remote url (ssh)
 FORBIDDEN_REF="refs/heads/master" # insert branch ref
 
 remote="$1"
@@ -319,8 +319,8 @@ husky 를 사용하여 master 로 직접 push 하기를 방지해보자.
 ```sh
 #!/bin/sh
 
-FORBIDDEN_HTTPS_URL="https://github.com/CheolHoSin/git-hooks-study.git" # insert your remote url (https)
-FORBIDDEN_SSH_URL="git@github.com:CheolHoSin/git-hooks-study.git" # insert your remote url (ssh)
+FORBIDDEN_HTTPS_URL="https://github.com/CheolHoSin/git-hooks-with-husky.git" # insert your remote url (https)
+FORBIDDEN_SSH_URL="git@github.com:CheolHoSin/git-hooks-with-husky.git" # insert your remote url (ssh)
 FORBIDDEN_REF="refs/heads/master" # insert branch ref
 
 ARR_GIT_PARAMS=($(echo $HUSKY_GIT_PARAMS))
